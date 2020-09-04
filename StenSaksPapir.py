@@ -1,0 +1,1 @@
+STPliste=["sten","saks","papir"]
