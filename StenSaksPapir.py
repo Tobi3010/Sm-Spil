@@ -2,5 +2,15 @@ import random
 
 print("Sten Saks Papir!")
 
-num1 = random.randint(0, 9)
-print(num1)
+
+
+
+i = ["Saks", "Sten"]
+n = ["Sten", "Papir"]
+k = ["Papir", "Saks"]
+List = [i,n,k]
+
+Enemy = List[random.randint(0, 2)][0]
+print(Enemy)
+
+print(List[0][1])
